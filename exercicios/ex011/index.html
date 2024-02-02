@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente diminuir a visao do sua tela </p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="grande">
+    </picture>
+
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audio</p>
+
+    <audio src="midia/all-my-fellas.mp3" controls></audio>
+
+    <audio preload="metadata" autoplay controls>
+<source src="midia/all-my-fellas.mp3" type="audio/mpeg">
+
+<p>nao consegrui baixar usar o audio no site  
+    <a href="midia/all-my-fellas.mp3">baixe o audio aq</a>
+</p>
+    </audio>
+
+</body>
+</html>
