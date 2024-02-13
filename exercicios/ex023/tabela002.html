@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 30px;
+            background-color: lightgray;
+            border: 2px solid black;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead , tfoot{
+            background-color: rgb(40, 40, 40);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(40, 40, 40);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+            .num {
+                text-align: right;
+                width: 100px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Lista de unidades federativas do Brasil por população</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>São Paulo</td>
+            <td class="num">44 411 238</td>
+            <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">16 054 524</td>
+            </tr>
+                <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626</td>
+                <tr>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+                </tr>
+                <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+                </tr>
+                    <tr>
+                    <td>Pernambuco</td>
+                    <td class="num">9 058 931</td>
+                    <tr>
+                    <td>Ceará</td>
+                    <td class="num">8 794 957</td>
+                    </tr>
+                    <tr>
+                    <td> Pará</td>
+                    <td class="num">8 121 025</td>
+                    </tr>
+                        <tr>
+                            <td>Santa Catarina</td>
+                            <td class="num">7 610 361</td>
+                        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="col">Totalização de habitantes</th>
+                <td style="text-align: center;">151 058 725</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h1>a</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde ut iusto porro necessitatibus enim ratione doloremque. Quam molestias animi sapiente. Adipisci vero, aperiam quasi dicta optio sapiente incidunt minima?
+    Dolor, explicabo sequi? Commodi delectus obcaecati fuga ut illum temporibus iure vero cupiditate praesentium facilis alias odit omnis possimus veritatis consequuntur dignissimos similique fugiat eaque officia, itaque eius atque accusamus!
+    Libero incidunt temporibus corrupti nostrum non saepe architecto, praesentium amet eius sapiente ut velit cum voluptate odit recusandae quasi nesciunt? Blanditiis possimus eaque sed facere tempore quo accusantium pariatur fugit!
+    Delectus, quibusdam velit reiciendis sint facere officiis dolore quas labore rerum beatae vero, numquam qui assumenda! Quibusdam quisquam, nam inventore enim, deserunt recusandae veritatis voluptatibus exercitationem accusantium, deleniti tempore blanditiis.
+    Architecto, ipsa iste. Impedit molestiae asperiores nam provident atque nihil inventore, reprehenderit iusto soluta, dolorem tempore quos, sapiente suscipit eos ullam? Facere culpa non modi, voluptatibus similique qui veniam! Dolores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas unde ut iusto porro necessitatibus enim ratione doloremque. Quam molestias animi sapiente. Adipisci vero, aperiam quasi dicta optio sapiente incidunt minima?
+    Dolor, explicabo sequi? Commodi delectus obcaecati fuga ut illum temporibus iure vero cupiditate praesentium facilis alias odit omnis possimus veritatis consequuntur dignissimos similique fugiat eaque officia, itaque eius atque accusamus!
+    Libero incidunt temporibus corrupti nostrum non saepe architecto, praesentium amet eius sapiente ut velit cum voluptate odit recusandae quasi nesciunt? Blanditiis possimus eaque sed facere tempore quo accusantium pariatur fugit!
+    Delectus, quibusdam velit reiciendis sint facere officiis dolore quas labore rerum beatae vero, numquam qui assumenda! Quibusdam quisquam, nam inventore enim, deserunt recusandae veritatis voluptatibus exercitationem accusantium, deleniti tempore blanditiis.
+    Architecto, ipsa iste. Impedit molestiae asperiores nam provident atque nihil inventore, reprehenderit iusto soluta, dolorem tempore quos, sapiente suscipit eos ullam? Facere culpa non modi, voluptatibus similique qui veniam! Dolores.
+</body>
+</html>
